@@ -1,27 +1,39 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+}
 body{
-    background-color:#FFFFFF;
-    color:#757575
+    color: var(--primary-text-color)
 }
+/* Стиль хедер */
 .logo{
-color: #212121;;
+color: var(--title-text-color)
 }
-.logo-web{color:#2196F3; ;}
+.logo-web{
+    color:var(--accent-color)
+}
 .main-nav .nav-link{
-    color: #212121;}
-    .nav-link:hover,.nav-link:focus{color: #2196F3;}
-
-    .buttons{
-    color: #FFFFFF;
-    background-color:#2196F3 ;
+    color: var(--title-text-color);}
+    .nav-link:hover,.nav-link:focus{
+        color: var(--accent-color)
+    }
+    .contacts .contacts-link{
+        color: var(--primary-text-color);}
+.contacts-link:hover,
+.contacts-link:focus{
+    color:var(--accent-color)
 }
-.title{
-    color: #212121;
+/* Стиль героя */
+    .buttons{
+    color: var(--primary-white-color);
+    background-color:var(--accent-color);
 }
 .hero-title{
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
-.contacts .contacts-link{color: #757575;}
-.contacts-link:hover,.contacts-link:focus{color:#2196F3}
+
 
 
 /*#212121; вторичниый цвет текста
