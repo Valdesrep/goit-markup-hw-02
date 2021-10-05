@@ -3,8 +3,22 @@ body{
     color:#757575
 }
 .logo{
-   color: #2196F3;
+color: #2196F3;
 }
+.main-nav .nav-link{
+    color: #212121;}
+.
+.buttons{
+    color: #FFFFFF;
+    background-color:#2196F3 ;
+}
+.title{
+    color: #212121;
+}
+.hero-title{
+    color: #FFFFFF;
+}
+
 
 
 /*#212121; вторичниый цвет текста
