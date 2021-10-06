@@ -3,6 +3,7 @@
     --title-text-color:#212121;
     --accent-color:#2196F3;
     --primary-white-color:#FFFFFF;
+    --buttons-bgc-color:#F5F4FA;
 }
 body{
     color: var(--primary-text-color)
@@ -30,12 +31,12 @@ color: var(--title-text-color)
     color:var(--accent-color)
 }
 /* Стиль героя */
-    .buttons{
+    .hero-button{
     color: var(--primary-white-color);
     background-color:var(--accent-color);
 }
-.buttons:hover,
-.buttons:focus{
+.hero-button:hover,
+.hero-button:focus{
     background-color:#188CE8;
 }
 .hero-title{
@@ -49,7 +50,20 @@ color: var(--title-text-color)
 .team .title{
     color:var(--title-text-color)
 }
-
+/* Стили кнопок портфолио */
+.nav-portfolio .buttons{
+    color:var(--title-text-color)
+    background-color:var(--buttons-bgc-color)
+}
+.nav-portfolio .buttons:hover,
+.nav-portfolio .buttons:focus{
+    color:var(--primary-white-color);
+    background-color:var(--accent-color);
+}
+/* Стили Портфолио */
+.portfolio .title{
+    color:var(--title-text-color)
+}
 /*#212121; цвет заголовков цвет текста
 /*#757575; основной цвет текста
 /*#2196F3; акцент
