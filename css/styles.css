@@ -24,6 +24,9 @@ color: var(--title-text-color)
     .nav-link:hover,.nav-link:focus{
         color: var(--accent-color)
     }
+    .main-nav .nav-link.current{
+        color:var(--accent-color)
+    }
     .contacts .contacts-link{
         color: var(--primary-text-color);}
 .contacts-link:hover,
@@ -37,7 +40,8 @@ color: var(--title-text-color)
 }
 .hero-button:hover,
 .hero-button:focus{
-    background-color:#188CE8;
+    background-color:var(--primary-white-color);
+    color: var(--title-text-color);
 }
 .hero-title{
     color: var(--primary-white-color);
