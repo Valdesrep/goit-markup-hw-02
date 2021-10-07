@@ -157,7 +157,7 @@ letter-spacing: 0.06em;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;}
-    .contacts-link .call{color:rgba(255, 255, 255, 0.6);
+    .contacts-link.active{color:rgba(255, 255, 255, 0.6);
     }
     
     .footer .contacts-link:hover,
